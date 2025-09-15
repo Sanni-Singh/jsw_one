@@ -7,7 +7,7 @@ import { CgHeadset } from "react-icons/cg";
 const Footer = () => {
     return (
         <footer className="lg:pt-12 lg:text-[14px] text-[12px] text-gray-900  ">
-            <div className="max-w-[1400px] mx-auto px-6  grid grid-cols-1 lg:grid-cols-5 ">
+            <div className="max-w-[1440px] mx-auto lg:pl-15  pl-6 grid grid-cols-1 lg:grid-cols-5 ">
                 <div>
                    
                     <img src="./jsw_one_msme.svg" alt="jsw_one_msme" className=' mb-4 lg:w-40  w-25' />
