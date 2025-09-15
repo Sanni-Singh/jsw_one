@@ -1,4 +1,5 @@
 import "./globals.css";
+import Footer from "../components/footer/Footer";
 import Header from "@/components/header/Header";
 
 export const metadata = {
@@ -9,12 +10,14 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
+       
+    <head>
         <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet" />
       </head>
-      <body>
-        <Header />
+      <body >
+         <Header />
         {children}
+        <Footer/>
       </body>
     </html>
   );
