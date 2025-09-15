@@ -6,9 +6,10 @@ import { CgHeadset } from "react-icons/cg";
 
 const Footer = () => {
     return (
-        <footer className="  lg:pt-12 text-[14px] text-gray-900  ">
+        <footer className="lg:pt-12 lg:text-[14px] text-[12px] text-gray-900  ">
             <div className="max-w-[1400px] mx-auto px-6  grid grid-cols-1 lg:grid-cols-5 ">
                 <div>
+                   
                     <img src="./jsw_one_msme.svg" alt="jsw_one_msme" className=' mb-4 lg:w-40  w-25' />
                     <div className='hidden lg:block'>
                         <div className='flex gap-5 mt-8 '>
@@ -30,7 +31,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div>
-                    <p className='lg:text-[16px] font-semibold mb-3 pt-6'>JSW One Msme</p>
+                    <p className='lg:text-[16px] font-semibold mb-3 pt-6'>JSW One MSME</p>
                     <ul className='space-y-2 menu-list'>
                         <li> <Link href="/about-us">About us</Link> </li>
                         <li><Link href="/blogs"> Blogs</Link> </li>
