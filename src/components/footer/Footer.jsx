@@ -7,7 +7,7 @@ import { CgHeadset } from "react-icons/cg";
 const Footer = () => {
     return (
         <footer className="lg:pt-12 lg:text-[14px] text-[12px] text-gray-900  ">
-            <div className="max-w-[1440px] mx-auto lg:pl-15  pl-6 grid grid-cols-1 lg:grid-cols-5 ">
+            <div className="max-w-[1500px] mx-auto lg:pl-15  pl-6 grid grid-cols-1 lg:grid-cols-5 ">
                 <div>
                    
                     <img src="./jsw_one_msme.svg" alt="jsw_one_msme" className=' mb-4 lg:w-40  w-25' />
@@ -20,7 +20,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div>
+                <div className='lg:ml-7'>
                     <p className=" lg:text-[16px] font-semibold mb-3 lg:pt-6">Buy online</p>
                     <ul className="space-y-2 menu-list ">
                         <li><Link href="/category/mild-steel">Mild Steel</Link></li>
@@ -95,3 +95,4 @@ const Footer = () => {
 }
 
 export default Footer
+
